@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>message box</title>
+    <style>
+        #container{
+            border: 5px solid gold;
+            border-radius: 15PX;
+            box-shadow: 5px;
+            text-align: center;
+            width: 400px;
+            height: 200px;
+        }
+        button{
+            border: solid rgba(253, 215, 2, 0.884);
+            border-radius: 5PX;
+        }
+        textarea{
+            border: solid peachpuff;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Ask Me a Question</h1>
+        <textarea placeholder="Type something..." rows="" cols="50" id="text"></textarea><br>
+        <button id="b1">Accept</button>
+        <button id="b2">Decline</button>
+    </div>
+    <script>
+        document.getElementById("b1").style.backgroundColor="gold";
+        document.getElementById("b2").style.backgroundColor="gold";
+        document.getElementById("text").style.backgroundColor="peachpuff";
+    </script>
+
+    
+</body>
+</html>
